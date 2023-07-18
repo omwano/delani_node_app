@@ -1,0 +1,139 @@
+.image {
+  background-image:url(../assets/backgrounds/welcome_img.jpg);
+  background-position: center;
+  background: size 100%;;
+  background-repeat: no-repeat;
+  color:white;
+  }
+#icon1 {
+  margin-top: 85px;
+  margin-bottom: 15px;
+}
+
+.containerS {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+}
+#services {
+  background-image: url(../assets/backgrounds/services_image.jpg);
+  background-repeat: no-repeat;
+  background: size 100%;
+  text-align: center;
+  color: white;
+}
+#smessage {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.col {
+  text-align: center;
+  size:100%;
+}
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16%;
+  margin-right: 14%;
+}
+
+.portfolio_list {
+  padding-top: 2%;
+}
+.col{
+  display: inline-block;
+  position: relative;
+}
+
+.projects_heading {
+  display: none;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.1;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0%;
+  transition:0.2s;
+  }
+  
+  .hidden-content {
+    display: none;
+  }
+  .contactS {
+    background-image: url(../assets/backgrounds/contact_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-right: 10%;
+  }
+
+ .contactHeader {
+  margin-top: 30px;
+  padding: 10px;
+ }
+ ::placeholder {
+  color: darkgray;
+ }
+
+ input[type=text] {
+  color:white;
+  padding: 15px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+ }
+
+ input[type=email] {
+  color: white;
+  padding: 15px 30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: inherit;
+ }
+
+ input[type=submit] {
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  cursor: auto;
+  border: slategray;
+  float:right;
+ }
+
+ .form-control::-webkit-input-placeholder { 
+  color: grey; 
+ }
+  button{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+ }
+
+ .social_sites {
+  width: 70%;
+  margin: auto;
+  padding-top:0.5%;
+ }
+
+ social_sites img {
+  padding: 15px;
+ }
+ .bottom{
+  text-align: center;
+  font-size: 10px;
+ }
+ 
